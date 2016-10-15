@@ -2,10 +2,13 @@ CREATE TABLE Users
 (
 id INTEGER,
 nickname TEXT,
+hashedPass TEXT,
+pwdSalt TEXT,
 name TEXT,
 firstName TEXT,
 promo INTEGER,
 submitInQueue INTEGER,
+isAdmin INTEGER
 PRIMARY KEY(id)
 );
 
